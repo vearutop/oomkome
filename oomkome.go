@@ -47,7 +47,7 @@ func main() {
 	start := time.Now()
 	b := make([]byte, size)
 	for i := 0; i < size; i++ {
-		b[i] = uint8(i % 255)
+		b[i] = 123
 	}
 
 	elapsed := time.Now().Sub(start)
